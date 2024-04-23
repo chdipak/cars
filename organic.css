@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Diplomata+SC&family=Pacifico&display=swap');
+    *{
+        font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .navbar{
+        background-color:greenyellow;
+    }
+    .nav-link{
+        color: white;
+        font-size: 25px;
+        text-shadow: 1px 2px 3px black;
+    }
+.bgimg{
+   background-image: url(https://img.freepik.com/premium-vector/organic-natural-food-label_24911-32313.jpg?w=740);
+   width: 100vw;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+
+.form.label{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form.label{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bgcontact{
+    background-color: red;
+    width: 100vw;
+
+}
+.formy label{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.formy input[type="text"]{
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 25px;
+    padding: 0.8%;
+    width: 90%;
+}
+.formy textarea{
+    border: none;
+    box-shadow: 2px 2px 2px pink;
+    border-radius: 25px;
+    width: 90%;
+}
+.formy{
+    display: flex;
+    flex-direction: column;
+
+}
+.cbutton{
+    background-color: white;
+    color: brown;
+    font-size: 20px;
+    width: 60%;
+    border: none;
+    border-radius: 30px ;
+    margin-left: 4%;
+}
+.cbutton:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    transform: scale(1,2);
+}
+.icons{
+    margin: 2%;
+    font-size: 40px;
+
+}
+.icon .fa-brands{
+    padding-left: 3%;
+margin-left: 1%;
+/* border:3px solid white */
+}
+.fa-instagram{
+    color: brown;
+
+}
+.fa-youtube{
+    color: red;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-threads{
+    color: black;
+
+}
+
+.fa-whatsapp{
+    color: green;
+}
+
+
